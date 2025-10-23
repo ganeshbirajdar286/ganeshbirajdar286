@@ -3,7 +3,7 @@
 ###
 
 <div align="center">
-  <img height="400" src="https://s6.ezgif.com/tmp/ezgif-6b0845a9512e9b.gif"  />
+  <img src=".github/workflows/boy.png" alt="Boy Image" width="300"/>
 </div>
 
 ###
