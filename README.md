@@ -46,6 +46,8 @@
   <img src="https://skillicons.dev/icons?i=express" height="60" alt="express logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=redux" height="60" alt="redux logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/gnubash/4EAA25" height="60" alt="bash logo"  />
 </div>
 
 ###
