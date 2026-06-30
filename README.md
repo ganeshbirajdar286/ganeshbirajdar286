@@ -41,6 +41,8 @@ Responsive WhatsApp-inspired messaging interface with modern UI.
 
 ## TechStacks
 
+###
+
 <div align="center">
    <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
   <img width="12" />
@@ -115,11 +117,11 @@ Responsive WhatsApp-inspired messaging interface with modern UI.
 
 
 
-
 ###
 
 <img src="https://raw.githubusercontent.com/ganeshbirajdar286/ganeshbirajdar286/output/snake.svg" alt="Snake animation" />
 
+###
 # 📊 GitHub Stats
 
 ![](https://github-readme-stats.vercel.app/api?username=ganeshbirajdar286&theme=dark&show_icons=true)
