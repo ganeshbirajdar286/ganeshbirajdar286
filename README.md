@@ -53,12 +53,7 @@ Responsive WhatsApp-inspired messaging interface with modern UI.
 
 ---
 
-## 📈 Contribution Graph
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ganeshbirajdar286&bg_color=0d1117&color=ff00ff&line=00ffcc&point=ffffff&area=true&hide_border=true)
-
----
-
+## TechStacks
 
 <div align="center">
    <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
