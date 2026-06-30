@@ -1,6 +1,6 @@
 # Hi, I'm Ganesh Birajdar 👋
 
-🎓 Computer Engineering Undergraduate
+🎓 Computer Engineering Undergraduate(SGPA = 8.3)
 🏫 St. Francis Institute of Technology, Mumbai
 💻 Full-Stack Developer | AI & Machine Learning Enthusiast
 
@@ -38,20 +38,6 @@ Responsive WhatsApp-inspired messaging interface with modern UI.
 
 🔗 GitHub: https://github.com/ganeshbirajdar286/whatsapp
 
----
-
-## 🎯 2026 Goals
-
-- Learn Advanced AI & ML
-- Build scalable Full Stack applications
-- Master Cloud Computing
-- Improve DSA & Problem Solving
-
----
-
-📫 Email: your-email@gmail.com
-
----
 
 ## TechStacks
 
@@ -129,6 +115,7 @@ Responsive WhatsApp-inspired messaging interface with modern UI.
 
 
 
+
 ###
 
 <img src="https://raw.githubusercontent.com/ganeshbirajdar286/ganeshbirajdar286/output/snake.svg" alt="Snake animation" />
@@ -146,3 +133,19 @@ Responsive WhatsApp-inspired messaging interface with modern UI.
 ## 🏆 GitHub Trophies
 
 ![](https://github-profile-trophy.vercel.app/?username=ganeshbirajdar286&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+
+---
+
+## 🎯 2026 Goals
+
+- Learn Advanced AI & ML
+- Build scalable Full Stack applications
+- Master Cloud Computing
+- Improve DSA & Problem Solving
+
+---
+
+📫 Email: your-email@gmail.com
+
+---
+
