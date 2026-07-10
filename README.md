@@ -147,7 +147,7 @@ Responsive WhatsApp-inspired messaging interface with modern UI.
 
 ---
 
-📫 Email: Ganeshbirajdar@gmail.com
+📫 Email: ganeshbirajdar286@gmail.com
 
 ---
 
