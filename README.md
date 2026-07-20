@@ -25,7 +25,7 @@
 </div>
 
 <div align="center">
-  <img src="./binary_avatar.gif" width="220" style="border-radius: 50%; border: 2px solid #00FF87; margin-bottom: 20px;" alt="Ganesh Birajdar Avatar" />
+  <img src="./binary_avatar.gif" width="220" style="margin-bottom: 20px;" alt="Ganesh Birajdar Avatar" />
 </div>
 
 ### 👨‍💻 About Me

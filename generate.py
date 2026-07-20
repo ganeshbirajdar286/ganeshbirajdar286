@@ -41,15 +41,23 @@ def create_animation():
     num_frames = 20
     print("Generating frames...")
     
+    cx_px = (cols * char_width) / 2
+    cy_px = (rows * char_height) / 2
+    radius_px = min(cx_px, cy_px) - 6
+
     # 5 frames of pure matrix
     for _ in range(5):
         frame = Image.new("RGB", (cols * char_width, rows * char_height), (13, 17, 23))
         draw = ImageDraw.Draw(frame)
         for y in range(rows):
             for x in range(cols):
-                char = str(random.randint(0, 1))
-                color = (0, 255, 0) # Neon green
-                draw.text((x * char_width, y * char_height), char, font=font, fill=color)
+                px = x * char_width + char_width / 2
+                py = y * char_height + char_height / 2
+                if ((px - cx_px)**2 + (py - cy_px)**2)**0.5 <= radius_px:
+                    char = str(random.randint(0, 1))
+                    color = (0, 255, 135) # Neon green/cyan
+                    draw.text((x * char_width, y * char_height), char, font=font, fill=color)
+        draw.ellipse([cx_px - radius_px, cy_px - radius_px, cx_px + radius_px, cy_px + radius_px], outline=(0, 255, 135), width=4)
         frames.append(frame)
         
     # Transition frames
@@ -60,13 +68,17 @@ def create_animation():
         
         for y in range(rows):
             for x in range(cols):
-                if random.random() < progress:
-                    char = target_chars[y][x]
-                    color = target_colors[y][x]
-                else:
-                    char = str(random.randint(0, 1))
-                    color = (0, 255, 0)
-                draw.text((x * char_width, y * char_height), char, font=font, fill=color)
+                px = x * char_width + char_width / 2
+                py = y * char_height + char_height / 2
+                if ((px - cx_px)**2 + (py - cy_px)**2)**0.5 <= radius_px:
+                    if random.random() < progress:
+                        char = target_chars[y][x]
+                        color = target_colors[y][x]
+                    else:
+                        char = str(random.randint(0, 1))
+                        color = (0, 255, 135)
+                    draw.text((x * char_width, y * char_height), char, font=font, fill=color)
+        draw.ellipse([cx_px - radius_px, cy_px - radius_px, cx_px + radius_px, cy_px + radius_px], outline=(0, 255, 135), width=4)
         frames.append(frame)
         
     # Final frames (hold the actual image)
