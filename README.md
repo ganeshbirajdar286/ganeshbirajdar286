@@ -8,6 +8,10 @@
 
 <br/>
 
+<img src="./binary_avatar.gif" width="250" style="border-radius: 20px" alt="Ganesh Birajdar Avatar" />
+
+<br/>
+
 <a href="https://www.linkedin.com/in/ganesh-fulchand-birajdar" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
