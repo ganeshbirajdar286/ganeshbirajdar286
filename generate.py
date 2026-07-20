@@ -12,7 +12,7 @@ def create_animation():
 
     char_width = 10
     char_height = 12
-    cols = 40
+    cols = 48
     rows = 40
 
     img_resized = img.resize((cols, rows), Image.Resampling.LANCZOS)
