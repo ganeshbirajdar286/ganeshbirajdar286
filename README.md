@@ -1,14 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:0D1117,30:FF79C6,70:BD93F9,100:0D1117&text=GANESH%20BIRAJDAR&fontColor=ffffff&fontSize=70&desc=Software%20Engineer%20%7C%20AI%20%26%20ML%20Enthusiast&descAlignY=51&descAlign=62&fontAlignY=35&animation=fadeIn" width="100%"/>
+  <img src="./header.svg" alt="Ganesh Birajdar Header" width="100%" />
 </div>
 
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=BD93F9&center=true&vCenter=true&width=800&lines=System.out.println(%22Hello+World!%22);Full-Stack+Web+Developer;Passionate+about+Artificial+Intelligence;Building+Scalable+Architectures;Always+Learning,+Always+Coding...)](https://git.io/typing-svg)
-
-<br/>
-
-<img src="./binary_avatar.gif" width="250" style="border-radius: 20px" alt="Ganesh Birajdar Avatar" />
 
 <br/>
 
@@ -31,10 +27,14 @@
 
 <br/>
 
-## 👨‍💻 `about_me.sh`
-
-```console
-ganesh@github:~$ cat profile.txt
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr>
+    <td width="30%" align="center" valign="center" style="border: none;">
+      <img src="./binary_avatar.gif" width="220" style="border-radius: 50%; border: 2px solid #BD93F9;" alt="Ganesh Birajdar Avatar" />
+    </td>
+    <td width="70%" style="border: none;">
+      <h2>👨‍💻 <code>about_me.sh</code></h2>
+<pre><code>ganesh@github:~$ cat profile.txt
 Name:      Ganesh Birajdar
 Education: Computer Engineering Undergraduate @ SFIT, Mumbai (SGPA: 8.3)
 Roles:     Full-Stack Developer, AI & ML Enthusiast
@@ -44,8 +44,10 @@ ganesh@github:~$ ./execute_goals.sh
 Loading 2026 Objectives...
 [██████████] 100% - Maintain Academic Excellence
 [████████░░]  80% - Master Advanced AI & Machine Learning
-[███████░░░]  70% - Architect Scalable Cloud Solutions
-```
+[███████░░░]  70% - Architect Scalable Cloud Solutions</code></pre>
+    </td>
+  </tr>
+</table>
 
 ---
 

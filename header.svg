@@ -1,0 +1,104 @@
+<svg width="800" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Background Gradient -->
+        <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#090c10" />
+            <stop offset="100%" stop-color="#0d1117" />
+        </linearGradient>
+
+        <!-- Text Gradient -->
+        <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FF79C6">
+                <animate attributeName="stop-color" values="#FF79C6; #BD93F9; #FF79C6" dur="5s" repeatCount="indefinite"/>
+            </stop>
+            <stop offset="100%" stop-color="#BD93F9">
+                <animate attributeName="stop-color" values="#BD93F9; #FF79C6; #BD93F9" dur="5s" repeatCount="indefinite"/>
+            </stop>
+        </linearGradient>
+
+        <!-- Glowing line -->
+        <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="transparent" />
+            <stop offset="50%" stop-color="#BD93F9" />
+            <stop offset="100%" stop-color="transparent" />
+        </linearGradient>
+
+        <!-- Animations for floating particles -->
+        <g id="particle">
+            <circle cx="0" cy="0" r="1.5" fill="#BD93F9" opacity="0.5" />
+        </g>
+    </defs>
+
+    <style>
+        .title {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-size: 54px;
+            font-weight: 800;
+            fill: url(#text-grad);
+            text-anchor: middle;
+            letter-spacing: 2px;
+        }
+        .subtitle {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            fill: #8b949e;
+            text-anchor: middle;
+            letter-spacing: 1px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .tag {
+            font-family: 'Fira Code', monospace;
+            font-size: 14px;
+            fill: #FF79C6;
+            text-anchor: middle;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(10px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+
+    <!-- Background -->
+    <rect width="100%" height="100%" fill="url(#bg-grad)" rx="15" ry="15" />
+
+    <!-- Particles -->
+    <use href="#particle" x="100" y="50">
+        <animate attributeName="y" values="50; 20; 50" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.2; 0.8; 0.2" dur="4s" repeatCount="indefinite" />
+    </use>
+    <use href="#particle" x="700" y="150">
+        <animate attributeName="y" values="150; 120; 150" dur="5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.3; 0.9; 0.3" dur="5s" repeatCount="indefinite" />
+    </use>
+    <use href="#particle" x="150" y="200">
+        <animate attributeName="y" values="200; 180; 200" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.1; 0.6; 0.1" dur="6s" repeatCount="indefinite" />
+    </use>
+    <use href="#particle" x="650" y="60">
+        <animate attributeName="y" values="60; 80; 60" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.4; 1; 0.4" dur="3s" repeatCount="indefinite" />
+    </use>
+    
+    <g class="floating">
+        <!-- Main Text -->
+        <text x="400" y="115" class="title">GANESH BIRAJDAR</text>
+        
+        <!-- Divider -->
+        <rect x="250" y="140" width="300" height="2" fill="url(#line-grad)" />
+
+        <!-- Subtitle -->
+        <text x="400" y="175" class="subtitle">Software Engineer | AI &amp; ML Enthusiast</text>
+        
+        <!-- Code Tag -->
+        <text x="400" y="210" class="tag">&lt;Code Creates Reality /&gt;</text>
+    </g>
+</svg>
