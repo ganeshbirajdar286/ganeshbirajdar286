@@ -1,0 +1,141 @@
+<svg width="600" height="380" xmlns="http://www.w3.org/2000/svg">
+    <!-- Window Frame -->
+    <rect width="600" height="380" rx="12" fill="#0D1117" stroke="#00FF87" stroke-width="1.5" stroke-opacity="0.5" />
+    
+    <!-- Top Bar -->
+    <rect width="600" height="30" rx="12" fill="#161B22" />
+    <circle cx="20" cy="15" r="6" fill="#FF5F56" />
+    <circle cx="40" cy="15" r="6" fill="#FFBD2E" />
+    <circle cx="60" cy="15" r="6" fill="#27C93F" />
+    
+    <text x="300" y="20" font-family="monospace" font-size="12" fill="#8B949E" text-anchor="middle">ganesh@github: ~/about</text>
+
+    <!-- Code Content -->
+    <g font-family="'Fira Code', 'Courier New', monospace" font-size="14" fill="#F8F8F2">
+        <!-- Line 1 -->
+        <text x="20" y="60">
+            <tspan fill="#FF79C6">const </tspan>
+            <tspan fill="#00FF87">ganesh </tspan>
+            <tspan fill="#FF79C6">= </tspan>
+            <tspan>{</tspan>
+        </text>
+        
+        <!-- Line 2 -->
+        <text x="40" y="85">
+            <tspan fill="#8BE9FD">pronouns</tspan>
+            <tspan>: </tspan>
+            <tspan fill="#F1FA8C">"he"</tspan>
+            <tspan fill="#FF79C6"> | </tspan>
+            <tspan fill="#F1FA8C">"him"</tspan>
+            <tspan>,</tspan>
+        </text>
+
+        <!-- Line 3 -->
+        <text x="40" y="110">
+            <tspan fill="#8BE9FD">education</tspan>
+            <tspan>: </tspan>
+            <tspan fill="#F1FA8C">"Information Technology @ SFIT, Mumbai (SGPA: 8.3)"</tspan>
+            <tspan>,</tspan>
+        </text>
+
+        <!-- Line 4 -->
+        <text x="40" y="135">
+            <tspan fill="#8BE9FD">code</tspan>
+            <tspan>: [</tspan>
+            <tspan fill="#F1FA8C">"Javascript"</tspan>
+            <tspan>, </tspan>
+            <tspan fill="#F1FA8C">"Python"</tspan>
+            <tspan>, </tspan>
+            <tspan fill="#F1FA8C">"Java"</tspan>
+            <tspan>],</tspan>
+        </text>
+
+        <!-- Line 5 -->
+        <text x="40" y="160">
+            <tspan fill="#8BE9FD">askMeAbout</tspan>
+            <tspan>: [</tspan>
+            <tspan fill="#F1FA8C">"web dev"</tspan>
+            <tspan>, </tspan>
+            <tspan fill="#F1FA8C">"tech"</tspan>
+            <tspan>, </tspan>
+            <tspan fill="#F1FA8C">"AI"</tspan>
+            <tspan>],</tspan>
+        </text>
+
+        <!-- Line 6 -->
+        <text x="40" y="185">
+            <tspan fill="#8BE9FD">technologies</tspan>
+            <tspan>: {</tspan>
+        </text>
+
+        <!-- Line 7 -->
+        <text x="60" y="210">
+            <tspan fill="#8BE9FD">frontEnd</tspan>
+            <tspan>: [</tspan>
+            <tspan fill="#F1FA8C">"React"</tspan>
+            <tspan>, </tspan>
+            <tspan fill="#F1FA8C">"HTML"</tspan>
+            <tspan>, </tspan>
+            <tspan fill="#F1FA8C">"CSS"</tspan>
+            <tspan>, </tspan>
+            <tspan fill="#F1FA8C">"Tailwind"</tspan>
+            <tspan>],</tspan>
+        </text>
+
+        <!-- Line 8 -->
+        <text x="60" y="235">
+            <tspan fill="#8BE9FD">backEnd</tspan>
+            <tspan>: [</tspan>
+            <tspan fill="#F1FA8C">"Node"</tspan>
+            <tspan>, </tspan>
+            <tspan fill="#F1FA8C">"Express"</tspan>
+            <tspan>],</tspan>
+        </text>
+
+        <!-- Line 9 -->
+        <text x="60" y="260">
+            <tspan fill="#8BE9FD">databases</tspan>
+            <tspan>: [</tspan>
+            <tspan fill="#F1FA8C">"Postgres"</tspan>
+            <tspan>, </tspan>
+            <tspan fill="#F1FA8C">"MySQL"</tspan>
+            <tspan>, </tspan>
+            <tspan fill="#F1FA8C">"MongoDB"</tspan>
+            <tspan>],</tspan>
+        </text>
+
+        <!-- Line 10 -->
+        <text x="60" y="285">
+            <tspan fill="#8BE9FD">misc</tspan>
+            <tspan>: [</tspan>
+            <tspan fill="#F1FA8C">"Git"</tspan>
+            <tspan>, </tspan>
+            <tspan fill="#F1FA8C">"Postman"</tspan>
+            <tspan>, </tspan>
+            <tspan fill="#F1FA8C">"Bash"</tspan>
+            <tspan>]</tspan>
+        </text>
+
+        <!-- Line 11 -->
+        <text x="40" y="310">
+            <tspan>}</tspan>
+            <tspan>,</tspan>
+        </text>
+
+        <!-- Line 12 -->
+        <text x="40" y="335">
+            <tspan fill="#8BE9FD">currentFocus</tspan>
+            <tspan>: </tspan>
+            <tspan fill="#F1FA8C">"Building clean, scalable, intelligent systems"</tspan>
+        </text>
+
+        <!-- Line 13 -->
+        <text x="20" y="360">
+            <tspan>}</tspan>
+            <tspan>;</tspan>
+            <tspan fill="#00FF87">
+                <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/> _
+            </tspan>
+        </text>
+    </g>
+</svg>

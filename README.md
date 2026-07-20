@@ -30,21 +30,9 @@
 
 ### 👨‍💻 About Me
 
-```javascript
-const ganesh = {
-    pronouns: "he" | "him",
-    education: "Computer Engineering Undergraduate @ SFIT, Mumbai (SGPA: 8.3)",
-    code: ["Javascript", "Python", "Java", "C", "C++"],
-    askMeAbout: ["web dev", "tech", "app dev", "AI/ML"],
-    technologies: {
-        frontEnd: ["React", "HTML", "CSS", "Tailwind", "Bootstrap"],
-        backEnd: ["Node", "Express"],
-        databases: ["Postgres", "MySQL", "MongoDB", "Redis"],
-        misc: ["Docker", "Git", "Postman", "Bash"]
-    },
-    currentFocus: "Building clean, scalable, and intelligent software systems"
-};
-```
+<div align="center">
+  <img src="./about_me_terminal.svg" alt="About Me Glassmorphic Terminal" />
+</div>
 
 ### 💻 What I'm Doing Currently
 
@@ -55,28 +43,9 @@ const ganesh = {
 
 ### 🚀 Projects
 
-```javascript
-const projects = [
-    {
-        name: "SWASTHYA (SIH Project)",
-        description: "AI-Powered Ayurveda Healthcare Platform with personalized wellness and nutrition tracking.",
-        techStack: ["React", "JavaScript", "CSS", "HTML"],
-        links: {
-            demo: "https://sih-nu-ten.vercel.app/",
-            github: "https://github.com/ganeshbirajdar286/sih"
-        }
-    },
-    {
-        name: "WhatsApp Clone",
-        description: "A sleek, modern, and highly responsive web application replicating the classic WhatsApp UI.",
-        techStack: ["React", "Node.js", "CSS", "JavaScript"],
-        links: {
-            demo: "https://whatsapp-three-amber.vercel.app/",
-            github: "https://github.com/ganeshbirajdar286/whatsapp"
-        }
-    }
-];
-```
+<div align="center">
+  <img src="./projects_terminal.svg" alt="Projects Glassmorphic Terminal" />
+</div>
 
 ### ⚙️ Tools & Technologies
 
@@ -88,6 +57,14 @@ const projects = [
   <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,graphql&perline=7" />
   <br>
   <img src="https://skillicons.dev/icons?i=git,github,docker,postman,jest,bash,githubactions&perline=7" />
+</div>
+
+<br/>
+
+### 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ganeshbirajdar286&theme=tokyonight&no-frame=true&margin-w=4&row=1&no-bg=true" alt="Trophies" />
 </div>
 
 <br/>
@@ -112,10 +89,6 @@ const projects = [
     </td>
   </tr>
 </table>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ganeshbirajdar286&theme=tokyonight&no-frame=true&margin-w=4&row=1&no-bg=true" alt="Trophies" />
-</div>
 
 <br/>
 
