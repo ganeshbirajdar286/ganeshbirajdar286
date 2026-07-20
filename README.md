@@ -3,80 +3,82 @@
 </div>
 
 <div align="center">
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=BD93F9&center=true&vCenter=true&width=800&lines=System.out.println(%22Hello+World!%22);Full-Stack+Web+Developer;Passionate+about+Artificial+Intelligence;Building+Scalable+Architectures;Always+Learning,+Always+Coding...)](https://git.io/typing-svg)
-
-<br/>
-
-<a href="https://www.linkedin.com/in/ganesh-fulchand-birajdar" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="https://www.instagram.com/ganeshbirajdar286/" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-</a>
-<a href="mailto:ganeshbirajdar286@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=ganeshbirajdar286&label=PROFILE+VIEWS&color=BD93F9&style=for-the-badge" alt="Profile Views"/>
-<img src="https://img.shields.io/github/followers/ganeshbirajdar286?style=for-the-badge&color=FF79C6" alt="Followers"/>
-
+  <p align="center">
+    <a href="https://www.linkedin.com/in/ganesh-fulchand-birajdar" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    </a>
+    <a href="https://github.com/ganeshbirajdar286" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    </a>
+    <a href="mailto:ganeshbirajdar286@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    </a>
+    <a href="https://www.instagram.com/ganeshbirajdar286/" target="_blank">
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+    </a>
+  </p>
+  
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=ganeshbirajdar286&label=PROFILE+VIEWS&color=00FF87&style=for-the-badge" alt="Profile Views"/>
+    <img src="https://img.shields.io/github/followers/ganeshbirajdar286?style=for-the-badge&color=60EFFF" alt="Followers"/>
+  </p>
 </div>
 
-<br/>
+<div align="center">
+  <img src="./binary_avatar.gif" width="220" style="border-radius: 50%; border: 2px solid #00FF87; margin-bottom: 20px;" alt="Ganesh Birajdar Avatar" />
+</div>
 
-<table align="center" style="border: none; border-collapse: collapse;">
-  <tr>
-    <td width="30%" align="center" valign="center" style="border: none;">
-      <img src="./binary_avatar.gif" width="220" style="border-radius: 50%; border: 2px solid #BD93F9;" alt="Ganesh Birajdar Avatar" />
-    </td>
-    <td width="70%" style="border: none;">
-      <h2>👨‍💻 <code>about_me.sh</code></h2>
-<pre><code>ganesh@github:~$ cat profile.txt
-Name:      Ganesh Birajdar
-Education: Computer Engineering Undergraduate @ SFIT, Mumbai (SGPA: 8.3)
-Roles:     Full-Stack Developer, AI & ML Enthusiast
-Focus:     Building clean, scalable, and intelligent software systems
+### 👨‍💻 About Me
 
-ganesh@github:~$ ./execute_goals.sh
-Loading 2026 Objectives...
-[██████████] 100% - Maintain Academic Excellence
-[████████░░]  80% - Master Advanced AI & Machine Learning
-[███████░░░]  70% - Architect Scalable Cloud Solutions</code></pre>
-    </td>
-  </tr>
-</table>
+```javascript
+const ganesh = {
+    pronouns: "he" | "him",
+    education: "Computer Engineering Undergraduate @ SFIT, Mumbai (SGPA: 8.3)",
+    code: ["Javascript", "Python", "Java", "C", "C++"],
+    askMeAbout: ["web dev", "tech", "app dev", "AI/ML"],
+    technologies: {
+        frontEnd: ["React", "HTML", "CSS", "Tailwind", "Bootstrap"],
+        backEnd: ["Node", "Express"],
+        databases: ["Postgres", "MySQL", "MongoDB", "Redis"],
+        misc: ["Docker", "Git", "Postman", "Bash"]
+    },
+    currentFocus: "Building clean, scalable, and intelligent software systems"
+};
+```
 
----
+### 💻 What I'm Doing Currently
 
-## 🚀 `Featured_Projects/`
+- 🔭 I’m currently working on **[SWASTHYA](https://github.com/ganeshbirajdar286/sih)**
+- 👯 I’m looking to collaborate on **Open Source Projects**
+- 💬 Ask me about **AI, ML, and Web Development**
+- ⚡ Fun fact: **Code Creates Reality**
 
-<table bordercolor="#333333">
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <h3>🌿 SWASTHYA (SIH Project)</h3>
-      <p><i>AI-Powered Ayurveda Healthcare Platform</i></p>
-      <img src="https://skillicons.dev/icons?i=react,js,css,html" /><br/><br/>
-      <p>Intelligent healthcare platform providing personalized wellness recommendations and nutrition tracking based on Ayurveda.</p>
-      <a href="https://sih-nu-ten.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-      <a href="https://github.com/ganeshbirajdar286/sih"><img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <h3>💬 WhatsApp Clone</h3>
-      <p><i>Responsive Real-Time Messaging UI</i></p>
-      <img src="https://skillicons.dev/icons?i=react,js,css,nodejs" /><br/><br/>
-      <p>A sleek, modern, and highly responsive web application replicating the classic WhatsApp messaging interface.</p>
-      <a href="https://whatsapp-three-amber.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-      <a href="https://github.com/ganeshbirajdar286/whatsapp"><img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-    </td>
-  </tr>
-</table>
+### 🚀 Projects
 
----
+```javascript
+const projects = [
+    {
+        name: "SWASTHYA (SIH Project)",
+        description: "AI-Powered Ayurveda Healthcare Platform with personalized wellness and nutrition tracking.",
+        techStack: ["React", "JavaScript", "CSS", "HTML"],
+        links: {
+            demo: "https://sih-nu-ten.vercel.app/",
+            github: "https://github.com/ganeshbirajdar286/sih"
+        }
+    },
+    {
+        name: "WhatsApp Clone",
+        description: "A sleek, modern, and highly responsive web application replicating the classic WhatsApp UI.",
+        techStack: ["React", "Node.js", "CSS", "JavaScript"],
+        links: {
+            demo: "https://whatsapp-three-amber.vercel.app/",
+            github: "https://github.com/ganeshbirajdar286/whatsapp"
+        }
+    }
+];
+```
 
-## 🛠️ `Tech_Stack.json`
+### ⚙️ Tools & Technologies
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=c,java,py,js,ts,html,css&perline=7" />
@@ -88,31 +90,31 @@ Loading 2026 Objectives...
   <img src="https://skillicons.dev/icons?i=git,github,docker,postman,jest,bash,githubactions&perline=7" />
 </div>
 
----
+<br/>
 
-## 📊 `GitHub_Analytics`
+### 📈 GitHub Analytics
 
-<table align="center" bordercolor="#0D1117">
+<table align="center" style="border: none; border-collapse: collapse;">
   <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=ganeshbirajdar286&show_icons=true&theme=dracula&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
+    <td align="center" width="50%" style="border: none;">
+      <img src="https://github-readme-stats.vercel.app/api?username=ganeshbirajdar286&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
     </td>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ganeshbirajdar286&layout=compact&theme=dracula&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+    <td align="center" width="50%" style="border: none;">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ganeshbirajdar286&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
     </td>
   </tr>
   <tr>
-    <td align="center" width="50%">
-      <img src="https://streak-stats.demolab.com?user=ganeshbirajdar286&theme=dracula&hide_border=true&background=0D1117" alt="GitHub Streak" />
+    <td align="center" width="50%" style="border: none;">
+      <img src="https://streak-stats.demolab.com?user=ganeshbirajdar286&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
     </td>
-    <td align="center" width="50%">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshbirajdar286&theme=dracula&bg_color=0D1117&hide_border=true&radius=16&area=true&order=5" alt="Activity Graph" width="100%"/>
+    <td align="center" width="50%" style="border: none;">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshbirajdar286&theme=tokyonight&bg_color=0D1117&hide_border=true&radius=16&area=true&order=5" alt="Activity Graph" width="100%"/>
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ganeshbirajdar286&theme=dracula&no-frame=true&margin-w=4&row=1&no-bg=true" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ganeshbirajdar286&theme=tokyonight&no-frame=true&margin-w=4&row=1&no-bg=true" alt="Trophies" />
 </div>
 
 <br/>
@@ -124,5 +126,5 @@ Loading 2026 Objectives...
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0D1117,50:BD93F9,100:0D1117&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0D1117,50:00FF87,100:0D1117&section=footer" width="100%"/>
 </div>

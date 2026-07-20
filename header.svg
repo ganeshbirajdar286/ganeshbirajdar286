@@ -6,26 +6,26 @@
             <stop offset="100%" stop-color="#0d1117" />
         </linearGradient>
 
-        <!-- Text Gradient -->
+        <!-- Text Gradient (Green to Blue) -->
         <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#FF79C6">
-                <animate attributeName="stop-color" values="#FF79C6; #BD93F9; #FF79C6" dur="5s" repeatCount="indefinite"/>
+            <stop offset="0%" stop-color="#00FF87">
+                <animate attributeName="stop-color" values="#00FF87; #60EFFF; #00FF87" dur="5s" repeatCount="indefinite"/>
             </stop>
-            <stop offset="100%" stop-color="#BD93F9">
-                <animate attributeName="stop-color" values="#BD93F9; #FF79C6; #BD93F9" dur="5s" repeatCount="indefinite"/>
+            <stop offset="100%" stop-color="#60EFFF">
+                <animate attributeName="stop-color" values="#60EFFF; #00FF87; #60EFFF" dur="5s" repeatCount="indefinite"/>
             </stop>
         </linearGradient>
 
         <!-- Glowing line -->
         <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stop-color="transparent" />
-            <stop offset="50%" stop-color="#BD93F9" />
+            <stop offset="50%" stop-color="#00FF87" />
             <stop offset="100%" stop-color="transparent" />
         </linearGradient>
 
         <!-- Animations for floating particles -->
         <g id="particle">
-            <circle cx="0" cy="0" r="1.5" fill="#BD93F9" opacity="0.5" />
+            <circle cx="0" cy="0" r="1.5" fill="#60EFFF" opacity="0.6" />
         </g>
     </defs>
 
@@ -50,7 +50,7 @@
         .tag {
             font-family: 'Fira Code', monospace;
             font-size: 14px;
-            fill: #FF79C6;
+            fill: #00FF87;
             text-anchor: middle;
         }
         @keyframes fadeIn {
