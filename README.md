@@ -67,9 +67,9 @@
 
 <div align="center">
  
-  <img src="https://streak-stats.demolab.com?user=ganeshbirajdar286&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=ganeshbirajdar286&theme=tokyonight&background=0D1117" alt="GitHub Streak" />
   <br/><br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshbirajdar286&theme=tokyonight&bg_color=0D1117&hide_border=true&radius=16&area=true&order=5" alt="Activity Graph" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshbirajdar286&theme=tokyonight&bg_color=0D1117&radius=16&area=true&order=5" alt="Activity Graph" width="100%"/>
 </div>
 
 <br/>
