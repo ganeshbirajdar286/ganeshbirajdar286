@@ -1,5 +1,5 @@
-<svg width="800" height="340" xmlns="http://www.w3.org/2000/svg">
-    <rect width="800" height="340" rx="12" fill="#0D1117" stroke="#60EFFF" stroke-width="1.5" stroke-opacity="0.5" />
+<svg width="800" height="390" xmlns="http://www.w3.org/2000/svg">
+    <rect width="800" height="390" rx="12" fill="#0D1117" stroke="#60EFFF" stroke-width="1.5" stroke-opacity="0.5" />
     <rect width="800" height="30" rx="12" fill="#161B22" />
     <circle cx="20" cy="15" r="6" fill="#FF5F56" />
     <circle cx="40" cy="15" r="6" fill="#FFBD2E" />
@@ -18,17 +18,19 @@
         <text x="40" y="85"><tspan>{</tspan></text>
         <text x="60" y="110"><tspan fill="#8BE9FD">name</tspan><tspan>: </tspan><tspan fill="#F1FA8C">"SWASTHYA (SIH Project)"</tspan><tspan>,</tspan></text>
         <text x="60" y="135"><tspan fill="#8BE9FD">description</tspan><tspan>: </tspan><tspan fill="#F1FA8C">"AI-Powered Ayurveda Healthcare Platform with wellness tracking."</tspan><tspan>,</tspan></text>
-        <text x="60" y="160"><tspan fill="#8BE9FD">techStack</tspan><tspan>: [</tspan><tspan fill="#F1FA8C">"React"</tspan><tspan>, </tspan><tspan fill="#F1FA8C">"JS"</tspan><tspan>, </tspan><tspan fill="#F1FA8C">"CSS"</tspan><tspan>, </tspan><tspan fill="#F1FA8C">"HTML"</tspan><tspan>]</tspan></text>
-        <text x="40" y="185"><tspan>},</tspan></text>
+        <text x="60" y="160"><tspan fill="#8BE9FD">techStack</tspan><tspan>: [</tspan><tspan fill="#F1FA8C">"React"</tspan><tspan>, </tspan><tspan fill="#F1FA8C">"JS"</tspan><tspan>, </tspan><tspan fill="#F1FA8C">"CSS"</tspan><tspan>, </tspan><tspan fill="#F1FA8C">"HTML"</tspan><tspan>],</tspan></text>
+        <text x="60" y="185"><tspan fill="#8BE9FD">url</tspan><tspan>: </tspan><tspan fill="#F1FA8C">"https://github.com/ganeshbirajdar286/sih"</tspan></text>
+        <text x="40" y="210"><tspan>},</tspan></text>
 
         <!-- Project 2 -->
-        <text x="40" y="210"><tspan>{</tspan></text>
-        <text x="60" y="235"><tspan fill="#8BE9FD">name</tspan><tspan>: </tspan><tspan fill="#F1FA8C">"WhatsApp Clone"</tspan><tspan>,</tspan></text>
-        <text x="60" y="260"><tspan fill="#8BE9FD">description</tspan><tspan>: </tspan><tspan fill="#F1FA8C">"A sleek, modern, and highly responsive web app replicating WhatsApp."</tspan><tspan>,</tspan></text>
-        <text x="60" y="285"><tspan fill="#8BE9FD">techStack</tspan><tspan>: [</tspan><tspan fill="#F1FA8C">"React"</tspan><tspan>, </tspan><tspan fill="#F1FA8C">"Node.js"</tspan><tspan>, </tspan><tspan fill="#F1FA8C">"CSS"</tspan><tspan>, </tspan><tspan fill="#F1FA8C">"JS"</tspan><tspan>]</tspan></text>
-        <text x="40" y="310"><tspan>}</tspan></text>
+        <text x="40" y="235"><tspan>{</tspan></text>
+        <text x="60" y="260"><tspan fill="#8BE9FD">name</tspan><tspan>: </tspan><tspan fill="#F1FA8C">"WhatsApp Clone"</tspan><tspan>,</tspan></text>
+        <text x="60" y="285"><tspan fill="#8BE9FD">description</tspan><tspan>: </tspan><tspan fill="#F1FA8C">"A sleek, modern, and highly responsive web app replicating WhatsApp."</tspan><tspan>,</tspan></text>
+        <text x="60" y="310"><tspan fill="#8BE9FD">techStack</tspan><tspan>: [</tspan><tspan fill="#F1FA8C">"React"</tspan><tspan>, </tspan><tspan fill="#F1FA8C">"Node.js"</tspan><tspan>, </tspan><tspan fill="#F1FA8C">"CSS"</tspan><tspan>, </tspan><tspan fill="#F1FA8C">"JS"</tspan><tspan>],</tspan></text>
+        <text x="60" y="335"><tspan fill="#8BE9FD">url</tspan><tspan>: </tspan><tspan fill="#F1FA8C">"https://github.com/ganeshbirajdar286/WhatsApp-Clone"</tspan></text>
+        <text x="40" y="360"><tspan>}</tspan></text>
         
-        <text x="20" y="335">
+        <text x="20" y="375">
             <tspan>]</tspan>
             <tspan>;</tspan>
             <tspan fill="#60EFFF">

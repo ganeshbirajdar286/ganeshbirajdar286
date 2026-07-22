@@ -62,11 +62,29 @@
 - 💬 Ask me about **AI, ML, and Web Development**
 - ⚡ Fun fact: **Code Creates Reality**
 
-### 🚀 Projects
+### 🚀 Featured Projects
 
 <div align="center">
   <img src="./projects_terminal.svg" alt="Projects Glassmorphic Terminal" />
 </div>
+
+<br/>
+
+#### 1. 🏥 [SWASTHYA — AI-Powered Ayurveda Healthcare Platform](https://github.com/ganeshbirajdar286/sih)
+- 📝 **Description**: Smart Ayurveda healthcare platform powered by AI/ML for personalized health diagnosis, prakriti assessment, and wellness tracking.
+- 🛠️ **Tech Stack**: `React` `JavaScript` `HTML5` `CSS3` `AI/ML`
+- 🔗 **Repository**: [github.com/ganeshbirajdar286/sih](https://github.com/ganeshbirajdar286/sih)
+
+#### 2. 💬 [WhatsApp Web Clone](https://github.com/ganeshbirajdar286/WhatsApp-Clone)
+- 📝 **Description**: A sleek, modern, highly responsive real-time web messaging application replicating core WhatsApp functionality.
+- 🛠️ **Tech Stack**: `React` `Node.js` `Express` `CSS3` `JavaScript`
+- 🔗 **Repository**: [github.com/ganeshbirajdar286/WhatsApp-Clone](https://github.com/ganeshbirajdar286/WhatsApp-Clone)
+
+<div align="center">
+  ⭐ <i>Explore more projects & repositories on my <b><a href="https://github.com/ganeshbirajdar286?tab=repositories" target="_blank">GitHub Profile</a></b>!</i>
+</div>
+
+<br/>
 
 ### ⚙️ Tools & Technologies
 
