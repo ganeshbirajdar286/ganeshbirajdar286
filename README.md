@@ -4,6 +4,9 @@
 
 <div align="center">
   <p align="center">
+    <a href="https://portfolio-rho-gold-aee24frxdm.vercel.app/" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-00FF87?style=for-the-badge&logo=react&logoColor=black" alt="Portfolio"/>
+    </a>
     <a href="https://www.linkedin.com/in/ganesh-fulchand-birajdar" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
@@ -33,6 +36,31 @@
 <div align="center">
   <img src="./about_me_terminal.svg" alt="About Me Glassmorphic Terminal" />
 </div>
+
+### 🌐 My Portfolio Overview
+
+<div align="center">
+  <img src="./portfolio_terminal.svg" alt="Portfolio Glassmorphic Terminal" />
+  <br/><br/>
+  <a href="https://portfolio-rho-gold-aee24frxdm.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Explore_My_Portfolio-00FF87?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Explore My Portfolio" />
+  </a>
+</div>
+
+<br/>
+
+> 💡 **Welcome to my personal digital showcase!** My portfolio features interactive demonstrations of my latest web development projects, AI/ML tools, end-to-end system architectures, and technical blogs.
+
+#### ✨ What You'll Find on My Portfolio:
+- 🚀 **Live Project Demos**: Direct access to fully interactive web applications including **SWASTHYA** (SIH Ayurveda AI Healthcare Platform) and modern real-time apps.
+- 💻 **Tech Stack & Architecture**: In-depth breakdowns of full-stack implementations using React, Next.js, Node.js, Python, PostgreSQL, and modern UI frameworks.
+- 🎨 **Modern & Responsive UI/UX**: Crafted with modern aesthetics, dark mode themes, glassmorphic UI elements, and smooth micro-animations.
+
+<div align="center">
+  👉 <b><a href="https://portfolio-rho-gold-aee24frxdm.vercel.app/" target="_blank">Click here to visit portfolio-rho-gold-aee24frxdm.vercel.app</a></b>
+</div>
+
+<br/>
 
 ### 💻 What I'm Doing Currently
 

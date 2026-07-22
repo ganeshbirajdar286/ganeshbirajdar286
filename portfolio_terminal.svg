@@ -1,0 +1,94 @@
+<svg width="750" height="320" xmlns="http://www.w3.org/2000/svg">
+    <!-- Window Frame -->
+    <rect width="750" height="320" rx="12" fill="#0D1117" stroke="#00FF87" stroke-width="1.5" stroke-opacity="0.5" />
+    
+    <!-- Top Bar -->
+    <rect width="750" height="30" rx="12" fill="#161B22" />
+    <circle cx="20" cy="15" r="6" fill="#FF5F56" />
+    <circle cx="40" cy="15" r="6" fill="#FFBD2E" />
+    <circle cx="60" cy="15" r="6" fill="#27C93F" />
+    
+    <text x="375" y="20" font-family="monospace" font-size="12" fill="#8B949E" text-anchor="middle">ganesh@github: ~/portfolio</text>
+
+    <!-- Code Content -->
+    <g font-family="'Fira Code', 'Courier New', monospace" font-size="14" fill="#F8F8F2">
+        <!-- Line 1 -->
+        <text x="20" y="60">
+            <tspan fill="#FF79C6">const </tspan>
+            <tspan fill="#00FF87">portfolio </tspan>
+            <tspan fill="#FF79C6">= </tspan>
+            <tspan>{</tspan>
+        </text>
+        
+        <!-- Line 2 -->
+        <text x="40" y="85">
+            <tspan fill="#8BE9FD">website</tspan>
+            <tspan>: </tspan>
+            <tspan fill="#F1FA8C">"https://portfolio-rho-gold-aee24frxdm.vercel.app/"</tspan>
+            <tspan>,</tspan>
+        </text>
+
+        <!-- Line 3 -->
+        <text x="40" y="110">
+            <tspan fill="#8BE9FD">role</tspan>
+            <tspan>: </tspan>
+            <tspan fill="#F1FA8C">"Full Stack Developer &amp; AI Enthusiast"</tspan>
+            <tspan>,</tspan>
+        </text>
+
+        <!-- Line 4 -->
+        <text x="40" y="135">
+            <tspan fill="#8BE9FD">highlights</tspan>
+            <tspan>: [</tspan>
+            <tspan fill="#F1FA8C">"Interactive UI Demos"</tspan>
+            <tspan>, </tspan>
+            <tspan fill="#F1FA8C">"Full Stack Architectures"</tspan>
+            <tspan>, </tspan>
+            <tspan fill="#F1FA8C">"AI Systems"</tspan>
+            <tspan>],</tspan>
+        </text>
+
+        <!-- Line 5 -->
+        <text x="40" y="160">
+            <tspan fill="#8BE9FD">featuredProjects</tspan>
+            <tspan>: {</tspan>
+        </text>
+
+        <!-- Line 6 -->
+        <text x="60" y="185">
+            <tspan fill="#8BE9FD">swasthya</tspan>
+            <tspan>: </tspan>
+            <tspan fill="#F1FA8C">"Ayurveda AI Healthcare Platform"</tspan>
+            <tspan>,</tspan>
+        </text>
+
+        <!-- Line 7 -->
+        <text x="60" y="210">
+            <tspan fill="#8BE9FD">whatsAppClone</tspan>
+            <tspan>: </tspan>
+            <tspan fill="#F1FA8C">"Real-time Web Messaging Application"</tspan>
+        </text>
+
+        <!-- Line 8 -->
+        <text x="40" y="235">
+            <tspan>}</tspan>
+            <tspan>,</tspan>
+        </text>
+
+        <!-- Line 9 -->
+        <text x="40" y="260">
+            <tspan fill="#8BE9FD">status</tspan>
+            <tspan>: </tspan>
+            <tspan fill="#F1FA8C">"Live &amp; Continuously Updated 🚀"</tspan>
+        </text>
+
+        <!-- Line 10 -->
+        <text x="20" y="285">
+            <tspan>}</tspan>
+            <tspan>;</tspan>
+            <tspan fill="#00FF87">
+                <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/> _
+            </tspan>
+        </text>
+    </g>
+</svg>
