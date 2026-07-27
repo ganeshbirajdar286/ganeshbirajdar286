@@ -1,141 +1,221 @@
-<svg width="600" height="380" xmlns="http://www.w3.org/2000/svg">
-    <!-- Window Frame -->
-    <rect width="600" height="380" rx="12" fill="#0D1117" stroke="#00FF87" stroke-width="1.5" stroke-opacity="0.5" />
+<svg width="850" height="485" viewBox="0 0 850 485" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090c10" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <!-- Glowing Border Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF87" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#60EFFF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#BD93F9" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.2; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .live-dot {
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+    .cursor {
+      animation: blink 1s step-end infinite;
+    }
+  </style>
+
+  <!-- Outer Frame -->
+  <rect width="850" height="485" rx="12" fill="url(#bg-grad)" stroke="url(#border-grad)" stroke-width="1.5" />
+
+  <!-- Top Bar -->
+  <rect width="850" height="34" rx="12" fill="#161B22" />
+  <circle cx="22" cy="17" r="6" fill="#FF5F56" />
+  <circle cx="42" cy="17" r="6" fill="#FFBD2E" />
+  <circle cx="62" cy="17" r="6" fill="#27C93F" />
+
+  <text x="425" y="22" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#8B949E" text-anchor="middle">ganeshbirajdar286@github: ~ % ./.profile.sh --live</text>
+
+  <!-- Command Line Header -->
+  <g font-family="'Fira Code', 'Courier New', monospace" font-size="13">
+    <text x="25" y="58">
+      <tspan fill="#00FF87">ganeshbirajdar286@github</tspan>
+      <tspan fill="#8B949E"> ~ % </tspan>
+      <tspan fill="#F1FA8C">./.profile.sh --live</tspan>
+    </text>
+  </g>
+
+  <!-- LEFT PANEL: VISUAL_MAP -->
+  <g font-family="'Fira Code', 'Courier New', monospace">
+    <text x="25" y="85" font-size="13" font-weight="bold" fill="#60EFFF">VISUAL_MAP</text>
+    <rect x="25" y="95" width="270" height="340" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1" />
     
-    <!-- Top Bar -->
-    <rect width="600" height="30" rx="12" fill="#161B22" />
-    <circle cx="20" cy="15" r="6" fill="#FF5F56" />
-    <circle cx="40" cy="15" r="6" fill="#FFBD2E" />
-    <circle cx="60" cy="15" r="6" fill="#27C93F" />
-    
-    <text x="300" y="20" font-family="monospace" font-size="12" fill="#8B949E" text-anchor="middle">ganesh@github: ~/about</text>
+    <!-- Matrix Particle Art Animations inside VISUAL_MAP using GitHub-native SMIL SVG animations -->
+    <g font-size="10" font-family="'Fira Code', monospace">
+      <!-- Stage 1: Face / Avatar Dot Matrix -->
+      <g fill="#00FF87" opacity="1">
+        <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;0.97;1" dur="12s" repeatCount="indefinite" />
+        <text x="42" y="125">. . . . . . . . . . . . . . .</text>
+        <text x="42" y="140">. . . . . 1 1 1 1 1 . . . . .</text>
+        <text x="42" y="155">. . . . 1 1 0 1 0 1 1 . . . .</text>
+        <text x="42" y="170">. . . . 1 1 1 1 1 1 1 . . . .</text>
+        <text x="42" y="185">. . . . 1 0 1 1 1 0 1 . . . .</text>
+        <text x="42" y="200">. . . . . 1 0 0 0 1 . . . . .</text>
+        <text x="42" y="215">. . . . . 0 1 1 1 0 . . . . .</text>
+        <text x="42" y="230">. . . 1 1 1 1 1 1 1 1 1 . . .</text>
+        <text x="42" y="245">. . 1 1 1 1 1 1 1 1 1 1 1 . .</text>
+        <text x="42" y="260">. 1 1 1 1 1 1 1 1 1 1 1 1 1 .</text>
+        <text x="42" y="275">. 1 1 1 1 1 1 1 1 1 1 1 1 1 .</text>
+        <text x="42" y="290">. . 1 1 1 1 1 1 1 1 1 1 1 . .</text>
+        <text x="42" y="305">. . . 1 1 1 1 1 1 1 1 1 . . .</text>
+        <text x="42" y="320">. . . . 1 1 1 1 1 1 1 . . . .</text>
+        <text x="42" y="335">. . . . . 1 1 1 1 1 . . . . .</text>
+        <text x="42" y="350">. . . . . . 1 1 1 . . . . . .</text>
+        <text x="42" y="365">. . . . . . . 1 . . . . . . .</text>
+        <text x="42" y="380">. . . . . . . . . . . . . . .</text>
+        <text x="42" y="410" fill="#8B949E" font-size="11">[ Mode: Avatar ]</text>
+      </g>
 
-    <!-- Code Content -->
-    <g font-family="'Fira Code', 'Courier New', monospace" font-size="14" fill="#F8F8F2">
-        <!-- Line 1 -->
-        <text x="20" y="60">
-            <tspan fill="#FF79C6">const </tspan>
-            <tspan fill="#00FF87">ganesh </tspan>
-            <tspan fill="#FF79C6">= </tspan>
-            <tspan>{</tspan>
-        </text>
-        
-        <!-- Line 2 -->
-        <text x="40" y="85">
-            <tspan fill="#8BE9FD">pronouns</tspan>
-            <tspan>: </tspan>
-            <tspan fill="#F1FA8C">"he"</tspan>
-            <tspan fill="#FF79C6"> | </tspan>
-            <tspan fill="#F1FA8C">"him"</tspan>
-            <tspan>,</tspan>
-        </text>
+      <!-- Stage 2: Code Brackets </ > -->
+      <g fill="#60EFFF" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;0.97;1" dur="12s" repeatCount="indefinite" />
+        <text x="42" y="140">. . . . . . . . . . . . . . .</text>
+        <text x="42" y="160">. . . 0 1 . . . . . 1 0 . . .</text>
+        <text x="42" y="180">. . 0 1 . . . . . . . 1 0 . .</text>
+        <text x="42" y="200">. 0 1 . . . . 1 . . . . 1 0 .</text>
+        <text x="42" y="220">0 1 . . . . 1 0 . . . . . 1 0</text>
+        <text x="42" y="240">. 0 1 . . . 1 0 . . . . 1 0 .</text>
+        <text x="42" y="260">. . 0 1 . 1 0 . . . . 1 0 . .</text>
+        <text x="42" y="280">. . . 0 1 0 . . . . 1 0 . . .</text>
+        <text x="42" y="300">. . . . 0 . . . . . 0 . . . .</text>
+        <text x="42" y="330">. . . . . . . . . . . . . . .</text>
+        <text x="42" y="350" font-size="11" font-weight="bold">. . &lt; C O D E / &gt; . .</text>
+        <text x="42" y="410" fill="#8B949E" font-size="11">[ Mode: Code ]</text>
+      </g>
 
-        <!-- Line 3 -->
-        <text x="40" y="110">
-            <tspan fill="#8BE9FD">education</tspan>
-            <tspan>: </tspan>
-            <tspan fill="#F1FA8C">"Information Technology @ SFIT, Mumbai (SGPA: 8.3)"</tspan>
-            <tspan>,</tspan>
-        </text>
+      <!-- Stage 3: Pyramid / Triangle Matrix -->
+      <g fill="#BD93F9" opacity="0">
+        <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;0.97;1" dur="12s" repeatCount="indefinite" />
+        <text x="42" y="130">. . . . . . . 1 . . . . . . .</text>
+        <text x="42" y="148">. . . . . . 1 1 1 . . . . . .</text>
+        <text x="42" y="166">. . . . . 1 1 0 1 1 . . . . .</text>
+        <text x="42" y="184">. . . . 1 1 1 1 1 1 1 . . . .</text>
+        <text x="42" y="202">. . . 1 1 0 1 1 0 1 1 1 . . .</text>
+        <text x="42" y="220">. . 1 1 1 1 1 1 1 1 1 1 1 . .</text>
+        <text x="42" y="238">. 1 1 0 1 1 0 1 1 0 1 1 1 1 .</text>
+        <text x="42" y="256">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</text>
+        <text x="42" y="274">. 1 1 1 1 1 1 1 1 1 1 1 1 1 .</text>
+        <text x="42" y="292">. . 1 1 1 1 1 1 1 1 1 1 1 . .</text>
+        <text x="42" y="310">. . . 1 1 1 1 1 1 1 1 1 . . .</text>
+        <text x="42" y="328">. . . . 1 1 1 1 1 1 1 . . . .</text>
+        <text x="42" y="346">. . . . . 1 1 1 1 1 . . . . .</text>
+        <text x="42" y="364">. . . . . . 1 1 1 . . . . . .</text>
+        <text x="42" y="410" fill="#8B949E" font-size="11">[ Mode: Neural Matrix ]</text>
+      </g>
 
-        <!-- Line 4 -->
-        <text x="40" y="135">
-            <tspan fill="#8BE9FD">code</tspan>
-            <tspan>: [</tspan>
-            <tspan fill="#F1FA8C">"Javascript"</tspan>
-            <tspan>, </tspan>
-            <tspan fill="#F1FA8C">"Python"</tspan>
-            <tspan>, </tspan>
-            <tspan fill="#F1FA8C">"Java"</tspan>
-            <tspan>],</tspan>
-        </text>
-
-        <!-- Line 5 -->
-        <text x="40" y="160">
-            <tspan fill="#8BE9FD">askMeAbout</tspan>
-            <tspan>: [</tspan>
-            <tspan fill="#F1FA8C">"web dev"</tspan>
-            <tspan>, </tspan>
-            <tspan fill="#F1FA8C">"tech"</tspan>
-            <tspan>, </tspan>
-            <tspan fill="#F1FA8C">"AI"</tspan>
-            <tspan>],</tspan>
-        </text>
-
-        <!-- Line 6 -->
-        <text x="40" y="185">
-            <tspan fill="#8BE9FD">technologies</tspan>
-            <tspan>: {</tspan>
-        </text>
-
-        <!-- Line 7 -->
-        <text x="60" y="210">
-            <tspan fill="#8BE9FD">frontEnd</tspan>
-            <tspan>: [</tspan>
-            <tspan fill="#F1FA8C">"React"</tspan>
-            <tspan>, </tspan>
-            <tspan fill="#F1FA8C">"HTML"</tspan>
-            <tspan>, </tspan>
-            <tspan fill="#F1FA8C">"CSS"</tspan>
-            <tspan>, </tspan>
-            <tspan fill="#F1FA8C">"Tailwind"</tspan>
-            <tspan>],</tspan>
-        </text>
-
-        <!-- Line 8 -->
-        <text x="60" y="235">
-            <tspan fill="#8BE9FD">backEnd</tspan>
-            <tspan>: [</tspan>
-            <tspan fill="#F1FA8C">"Node"</tspan>
-            <tspan>, </tspan>
-            <tspan fill="#F1FA8C">"Express"</tspan>
-            <tspan>],</tspan>
-        </text>
-
-        <!-- Line 9 -->
-        <text x="60" y="260">
-            <tspan fill="#8BE9FD">databases</tspan>
-            <tspan>: [</tspan>
-            <tspan fill="#F1FA8C">"Postgres"</tspan>
-            <tspan>, </tspan>
-            <tspan fill="#F1FA8C">"MySQL"</tspan>
-            <tspan>, </tspan>
-            <tspan fill="#F1FA8C">"MongoDB"</tspan>
-            <tspan>],</tspan>
-        </text>
-
-        <!-- Line 10 -->
-        <text x="60" y="285">
-            <tspan fill="#8BE9FD">misc</tspan>
-            <tspan>: [</tspan>
-            <tspan fill="#F1FA8C">"Git"</tspan>
-            <tspan>, </tspan>
-            <tspan fill="#F1FA8C">"Postman"</tspan>
-            <tspan>, </tspan>
-            <tspan fill="#F1FA8C">"Bash"</tspan>
-            <tspan>]</tspan>
-        </text>
-
-        <!-- Line 11 -->
-        <text x="40" y="310">
-            <tspan>}</tspan>
-            <tspan>,</tspan>
-        </text>
-
-        <!-- Line 12 -->
-        <text x="40" y="335">
-            <tspan fill="#8BE9FD">currentFocus</tspan>
-            <tspan>: </tspan>
-            <tspan fill="#F1FA8C">"Building clean, scalable, intelligent systems"</tspan>
-        </text>
-
-        <!-- Line 13 -->
-        <text x="20" y="360">
-            <tspan>}</tspan>
-            <tspan>;</tspan>
-            <tspan fill="#00FF87">
-                <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/> _
-            </tspan>
-        </text>
+      <!-- Stage 4: Tech Stack Grid -->
+      <g fill="#F1FA8C" opacity="0">
+        <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;0.97;1" dur="12s" repeatCount="indefinite" />
+        <text x="42" y="140">. . . . . . . . . . . . . . .</text>
+        <text x="42" y="165">. . . [ A I / M L ] . . . .</text>
+        <text x="42" y="190">. . . . . . . . . . . . . . .</text>
+        <text x="42" y="215">. . [ F U L L S T A C K ] . .</text>
+        <text x="42" y="240">. . . . . . . . . . . . . . .</text>
+        <text x="42" y="265">. . . [ D O C K E R ] . . . .</text>
+        <text x="42" y="290">. . . . . . . . . . . . . . .</text>
+        <text x="42" y="315">. . . [ R E A C T ] . . . . .</text>
+        <text x="42" y="340">. . . . . . . . . . . . . . .</text>
+        <text x="42" y="365">. . . [ N O D E . J S ] . . .</text>
+        <text x="42" y="410" fill="#8B949E" font-size="11">[ Mode: Tech Stack ]</text>
+      </g>
     </g>
+  </g>
+
+  <!-- RIGHT PANEL: SYSTEM_INFO -->
+  <g font-family="'Fira Code', 'Courier New', monospace">
+    <!-- Header with LIVE badge -->
+    <text x="315" y="85" font-size="13" font-weight="bold" fill="#BD93F9">SYSTEM_INFO</text>
+    <g text-anchor="end">
+      <circle cx="765" cy="81" r="4.5" fill="#00FF87" class="live-dot">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="815" y="85" font-size="12" font-weight="bold" fill="#00FF87">● LIVE</text>
+    </g>
+
+    <!-- Box Container for System Info -->
+    <rect x="315" y="95" width="510" height="340" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1" />
+
+    <g font-size="12">
+      <!-- Section 1: Main Info -->
+      <g transform="translate(330, 118)">
+        <text x="0" y="0"><tspan fill="#8BE9FD">Subject</tspan></text>
+        <text x="480" y="0" text-anchor="end"><tspan fill="#F1FA8C" font-weight="bold">Ganesh Birajdar</tspan></text>
+
+        <text x="0" y="19"><tspan fill="#8BE9FD">Role</tspan></text>
+        <text x="480" y="19" text-anchor="end"><tspan fill="#F8F8F2">Full-Stack &amp; AI Developer</tspan></text>
+
+        <text x="0" y="38"><tspan fill="#8BE9FD">Origin</tspan></text>
+        <text x="480" y="38" text-anchor="end"><tspan fill="#F8F8F2">Mumbai, India</tspan></text>
+
+        <text x="0" y="57"><tspan fill="#8BE9FD">Education</tspan></text>
+        <text x="480" y="57" text-anchor="end"><tspan fill="#F8F8F2">B.E. IT @ SFIT (SGPA: 8.3)</tspan></text>
+
+        <text x="0" y="76"><tspan fill="#8BE9FD">Status</tspan></text>
+        <text x="480" y="76" text-anchor="end"><tspan fill="#00FF87">Building + Learning + Shipping</tspan></text>
+
+        <text x="0" y="95"><tspan fill="#8BE9FD">Toolchain</tspan></text>
+        <text x="480" y="95" text-anchor="end"><tspan fill="#F8F8F2">VS Code, Git, Docker, Postman</tspan></text>
+
+        <text x="0" y="114"><tspan fill="#8BE9FD">Core.Lang</tspan></text>
+        <text x="480" y="114" text-anchor="end"><tspan fill="#F8F8F2">JavaScript, TypeScript, Python, Java</tspan></text>
+
+        <text x="0" y="133"><tspan fill="#8BE9FD">Core.Frontend</tspan></text>
+        <text x="480" y="133" text-anchor="end"><tspan fill="#F8F8F2">React, Next.js, HTML5, CSS3, Tailwind</tspan></text>
+
+        <text x="0" y="152"><tspan fill="#8BE9FD">Core.Backend</tspan></text>
+        <text x="480" y="152" text-anchor="end"><tspan fill="#F8F8F2">Node.js, Express, REST APIs</tspan></text>
+
+        <text x="0" y="171"><tspan fill="#8BE9FD">Core.Database</tspan></text>
+        <text x="480" y="171" text-anchor="end"><tspan fill="#F8F8F2">PostgreSQL, MySQL, MongoDB, Redis</tspan></text>
+
+        <text x="0" y="190"><tspan fill="#8BE9FD">Core.Infra</tspan></text>
+        <text x="480" y="190" text-anchor="end"><tspan fill="#F8F8F2">Vercel, Docker, Git, GitHub Actions</tspan></text>
+
+        <!-- Divider line -->
+        <line x1="0" y1="202" x2="480" y2="202" stroke="#30363D" stroke-width="1" />
+
+        <!-- Section 2: Contact -->
+        <text x="0" y="218"><tspan fill="#FF79C6" font-weight="bold">- Contact</tspan></text>
+
+        <text x="0" y="235"><tspan fill="#8BE9FD">Grid.Mail</tspan></text>
+        <text x="480" y="235" text-anchor="end"><tspan fill="#F1FA8C">ganeshbirajdar286@gmail.com</tspan></text>
+
+        <text x="0" y="252"><tspan fill="#8BE9FD">Grid.Portfolio</tspan></text>
+        <text x="480" y="252" text-anchor="end"><tspan fill="#60EFFF">portfolio-rho-gold-aee24frxdm.vercel.app</tspan></text>
+
+        <text x="0" y="269"><tspan fill="#8BE9FD">Grid.LinkedIn</tspan></text>
+        <text x="480" y="269" text-anchor="end"><tspan fill="#F8F8F2">ganesh-fulchand-birajdar</tspan></text>
+
+        <text x="0" y="286"><tspan fill="#8BE9FD">Grid.GitHub</tspan></text>
+        <text x="480" y="286" text-anchor="end"><tspan fill="#00FF87">@ganeshbirajdar286</tspan></text>
+      </g>
+    </g>
+  </g>
+
+  <!-- BOTTOM FOOTER -->
+  <g font-family="'Fira Code', 'Courier New', monospace" font-size="12">
+    <text x="25" y="465">
+      <tspan fill="#00FF87">» </tspan>
+      <tspan fill="#8B949E">More about me &amp; projects below in README.md </tspan>
+      <tspan fill="#00FF87" class="cursor">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>|
+      </tspan>
+    </text>
+  </g>
 </svg>
