@@ -27,10 +27,6 @@
   </p>
 </div>
 
-<div align="center">
-  <img src="./binary_avatar.gif" width="220" style="margin-bottom: 20px;" alt="Ganesh Birajdar Avatar" />
-</div>
-
 ### 👨‍💻 About Me
 
 <div align="center">
