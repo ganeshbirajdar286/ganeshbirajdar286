@@ -101,13 +101,19 @@
 ### 📈 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshbirajdar286&theme=tokyonight&bg_color=0D1117&radius=16&area=true&order=5" alt="Activity Graph" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ganeshbirajdar286&theme=github-compact&color=00FF87&line=00FF87&point=00FF87&area=true&area_color=00FF87&title_color=00FF87&text_color=ffffff&bg_color=0D1117&radius=16" alt="Activity Graph" width="100%"/>
 </div>
 
 <br/>
 
+
+
+<br/>
+
+### 🐍 GitHub Contribution Snake
+
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ganeshbirajdar286/ganeshbirajdar286/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/ganeshbirajdar286/ganeshbirajdar286/output/snake.svg" alt="Snake animation" width="100%" />
 </div>
 
 ---
