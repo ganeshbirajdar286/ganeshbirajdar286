@@ -24,7 +24,7 @@ jobs:
         with:
           username: ganeshbirajdar286
           output_path: dist/trophy.svg
-          token: ${{ github.token }}
+          token: ${{ secrets.TROPHY_TOKEN }}
           theme: dracula
           max-rows: 1
           margin-width: 8
