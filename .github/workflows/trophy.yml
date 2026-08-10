@@ -19,11 +19,14 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Create dist directory
+        run: mkdir -p dist
+
       - name: Generate trophy.svg
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ganeshbirajdar286
-          output_path: dist/trophy.svg
+          file: dist/trophy.svg
           token: ${{ secrets.TROPHY_TOKEN }}
           theme: dracula
           max-rows: 1
@@ -31,6 +34,9 @@ jobs:
           margin-height: 8
           no-background: false
           no-frame: false
+
+      - name: Check generated file
+        run: ls -lah dist/
 
       - name: Push trophy.svg to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
