@@ -89,9 +89,9 @@
   <br>
   <img src="https://skillicons.dev/icons?i=react,nodejs,express,nextjs,redux,tailwind,bootstrap&perline=7" />
   <br>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,graphql&perline=7" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,nginx,graphql&perline=8" />
   <br>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,postman,jest,bash,githubactions,fastapi&perline=8" />
+  <img src="https://skillicons.dev/icons?i=git,github,docker,postman,jest,bash,githubactions,kubernetes,fastapi&perline=9" />
 
 
 </div>
